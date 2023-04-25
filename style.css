@@ -15,9 +15,25 @@ h1{
     color: rgb(223, 223, 223);
     text-shadow: 1px 2px 2px darkgray;
 }
+.introphrase {
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30%;
+}
+.CougarPic {
+    float: right;
+    margin-right: 20px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.UplashImage {
+    float: left;
+}
 
 p{
     line-height: 1.5em;
+    text-align: center;
+    margin-left: 30%;
 }
 
 #Blog {
@@ -35,6 +51,8 @@ label {
 h2{
     text-shadow: 1px 2px 2px darkgray;
     color: rgb(41, 41, 41);
+    text-align: center;
+    margin-left: 30%;
     
 }
 h3{
@@ -45,7 +63,9 @@ h3{
 header {
     position: sticky;
     background: rgb(107, 110, 112);
+    font-size: 35px;
     top: 0px;
+    min-height: 50% !important;
 }
 
 @media (max-width: 400px) {
